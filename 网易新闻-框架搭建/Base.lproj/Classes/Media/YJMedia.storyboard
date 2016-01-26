@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="1iQ-oe-b2Z">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--音频-->
+        <scene sceneID="Ksr-Th-LVN">
+            <objects>
+                <navigationController title="音频" id="1iQ-oe-b2Z" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="CNY-Cb-yF6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ly9-bo-WY3" kind="relationship" relationship="rootViewController" id="oRX-e3-0dh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FJc-Lc-qR4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-305" y="428"/>
+        </scene>
+        <!--音频-->
+        <scene sceneID="Hm5-OZ-eFK">
+            <objects>
+                <viewController title="音频" id="ly9-bo-WY3" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7NR-SE-G85"/>
+                        <viewControllerLayoutGuide type="bottom" id="pXV-cd-at0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nom-7v-8xk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="音频" id="QgP-L6-X7V">
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="sQV-iV-SOG"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="b1P-Oa-GUS"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y4k-dk-fHI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="427" y="418"/>
+        </scene>
+    </scenes>
+</document>

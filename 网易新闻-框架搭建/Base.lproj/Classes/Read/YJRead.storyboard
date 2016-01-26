@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="nhk-F9-4tb">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--阅读-->
+        <scene sceneID="zs8-ru-LwZ">
+            <objects>
+                <navigationController title="阅读" id="nhk-F9-4tb" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                    <tabBarItem key="tabBarItem" title="阅读" id="5dZ-r5-Klt"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0gF-4h-LdG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="black" id="O1l-65-4vd">
+                        <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="UnO-2d-boL" kind="relationship" relationship="rootViewController" id="pTk-bx-oS4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G4t-3H-Qpu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-498" y="384"/>
+        </scene>
+        <!--阅读-->
+        <scene sceneID="xtr-fT-bEq">
+            <objects>
+                <viewController title="阅读" id="UnO-2d-boL" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZiF-yh-bVY"/>
+                        <viewControllerLayoutGuide type="bottom" id="2FJ-MW-tHu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0H8-0B-wfc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="Item" id="CA9-ZO-HXQ"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" title="阅读" id="Isd-bO-Izp">
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="8hN-ds-1DT"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="Dhh-bb-swB"/>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Lx-Lq-vsr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="205" y="384"/>
+        </scene>
+    </scenes>
+</document>

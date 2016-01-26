@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10FA326E3F0219B919D60805 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F2EB7C95390441C172A851 /* Pods.framework */; };
 		96A055B11C570E9D0019ED94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A055B01C570E9D0019ED94 /* AppDelegate.swift */; };
 		96A055B31C570E9D0019ED94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A055B21C570E9D0019ED94 /* ViewController.swift */; };
 		96A055B61C570E9D0019ED94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A055B41C570E9D0019ED94 /* Main.storyboard */; };
 		96A055B81C570E9D0019ED94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96A055B71C570E9D0019ED94 /* Assets.xcassets */; };
 		96A055BB1C570E9D0019ED94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A055B91C570E9D0019ED94 /* LaunchScreen.storyboard */; };
+		96A055E61C5714AC0019ED94 /* YJDiscover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A055E51C5714AC0019ED94 /* YJDiscover.storyboard */; };
+		96A055E81C5714C00019ED94 /* YJMe.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A055E71C5714C00019ED94 /* YJMe.storyboard */; };
+		96A055EA1C5714D20019ED94 /* YJMedia.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A055E91C5714D20019ED94 /* YJMedia.storyboard */; };
+		96A055EC1C5714E20019ED94 /* YJNews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A055EB1C5714E20019ED94 /* YJNews.storyboard */; };
+		96A055EE1C5714F10019ED94 /* YJRead.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A055ED1C5714F10019ED94 /* YJRead.storyboard */; };
+		96A056841C575AEC0019ED94 /* DataTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A056831C575AEC0019ED94 /* DataTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A9580F467FDB3F4A17BAC3A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		83FD34B0C303CD371BA98BB8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		96A055AD1C570E9D0019ED94 /* 网易新闻-框架搭建.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网易新闻-框架搭建.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A055B01C570E9D0019ED94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96A055B21C570E9D0019ED94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,13 @@
 		96A055B71C570E9D0019ED94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96A055BA1C570E9D0019ED94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96A055BC1C570E9D0019ED94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96A055E51C5714AC0019ED94 /* YJDiscover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = YJDiscover.storyboard; sourceTree = "<group>"; };
+		96A055E71C5714C00019ED94 /* YJMe.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = YJMe.storyboard; sourceTree = "<group>"; };
+		96A055E91C5714D20019ED94 /* YJMedia.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = YJMedia.storyboard; sourceTree = "<group>"; };
+		96A055EB1C5714E20019ED94 /* YJNews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = YJNews.storyboard; sourceTree = "<group>"; };
+		96A055ED1C5714F10019ED94 /* YJRead.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = YJRead.storyboard; sourceTree = "<group>"; };
+		96A056831C575AEC0019ED94 /* DataTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTool.swift; sourceTree = "<group>"; };
+		E4F2EB7C95390441C172A851 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10FA326E3F0219B919D60805 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26DA5F844C2175E2CD410327 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4F2EB7C95390441C172A851 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		96A055A41C570E9D0019ED94 = {
 			isa = PBXGroup;
 			children = (
 				96A055AF1C570E9D0019ED94 /* 网易新闻-框架搭建 */,
 				96A055AE1C570E9D0019ED94 /* Products */,
+				E54D9384954201A15DB8FADE /* Pods */,
+				26DA5F844C2175E2CD410327 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +84,307 @@
 				96A055B01C570E9D0019ED94 /* AppDelegate.swift */,
 				96A055B21C570E9D0019ED94 /* ViewController.swift */,
 				96A055B41C570E9D0019ED94 /* Main.storyboard */,
+				96A055C21C5713880019ED94 /* Classes */,
 				96A055B71C570E9D0019ED94 /* Assets.xcassets */,
 				96A055B91C570E9D0019ED94 /* LaunchScreen.storyboard */,
 				96A055BC1C570E9D0019ED94 /* Info.plist */,
 			);
 			path = "网易新闻-框架搭建";
+			sourceTree = "<group>";
+		};
+		96A055C21C5713880019ED94 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				96A055C31C5713880019ED94 /* Common */,
+				96A055C81C5713880019ED94 /* Discover */,
+				96A055CC1C5713880019ED94 /* Me */,
+				96A055D01C5713880019ED94 /* Media */,
+				96A055D41C5713880019ED94 /* News */,
+				96A055E11C5713880019ED94 /* Read */,
+			);
+			name = Classes;
+			path = Base.lproj/Classes;
+			sourceTree = "<group>";
+		};
+		96A055C31C5713880019ED94 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				96A055C41C5713880019ED94 /* Controller */,
+				96A055C51C5713880019ED94 /* Lib */,
+				96A055C61C5713880019ED94 /* Other */,
+				96A055C71C5713880019ED94 /* Tools */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		96A055C41C5713880019ED94 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		96A055C51C5713880019ED94 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		96A055C61C5713880019ED94 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		96A055C71C5713880019ED94 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				96A056831C575AEC0019ED94 /* DataTool.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		96A055C81C5713880019ED94 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				96A055C91C5713880019ED94 /* Controller */,
+				96A055CA1C5713880019ED94 /* Model */,
+				96A055CB1C5713880019ED94 /* View */,
+				96A055E51C5714AC0019ED94 /* YJDiscover.storyboard */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		96A055C91C5713880019ED94 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		96A055CA1C5713880019ED94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		96A055CB1C5713880019ED94 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		96A055CC1C5713880019ED94 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				96A055CD1C5713880019ED94 /* Controller */,
+				96A055CE1C5713880019ED94 /* Model */,
+				96A055CF1C5713880019ED94 /* View */,
+				96A055E71C5714C00019ED94 /* YJMe.storyboard */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		96A055CD1C5713880019ED94 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		96A055CE1C5713880019ED94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		96A055CF1C5713880019ED94 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		96A055D01C5713880019ED94 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				96A055D11C5713880019ED94 /* Controller */,
+				96A055D21C5713880019ED94 /* Model */,
+				96A055D31C5713880019ED94 /* View */,
+				96A055E91C5714D20019ED94 /* YJMedia.storyboard */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		96A055D11C5713880019ED94 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		96A055D21C5713880019ED94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		96A055D31C5713880019ED94 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		96A055D41C5713880019ED94 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				96A055D51C5713880019ED94 /* NewsChannel */,
+				96A055D91C5713880019ED94 /* NewsDetail */,
+				96A055DD1C5713880019ED94 /* Weather */,
+				96A055EB1C5714E20019ED94 /* YJNews.storyboard */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		96A055D51C5713880019ED94 /* NewsChannel */ = {
+			isa = PBXGroup;
+			children = (
+				96A055D61C5713880019ED94 /* Controller */,
+				96A055D71C5713880019ED94 /* Model */,
+				96A055D81C5713880019ED94 /* View */,
+			);
+			path = NewsChannel;
+			sourceTree = "<group>";
+		};
+		96A055D61C5713880019ED94 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		96A055D71C5713880019ED94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		96A055D81C5713880019ED94 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		96A055D91C5713880019ED94 /* NewsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				96A055DA1C5713880019ED94 /* Controller */,
+				96A055DB1C5713880019ED94 /* Model */,
+				96A055DC1C5713880019ED94 /* View */,
+			);
+			path = NewsDetail;
+			sourceTree = "<group>";
+		};
+		96A055DA1C5713880019ED94 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		96A055DB1C5713880019ED94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		96A055DC1C5713880019ED94 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		96A055DD1C5713880019ED94 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				96A055DE1C5713880019ED94 /* Controller */,
+				96A055DF1C5713880019ED94 /* Model */,
+				96A055E01C5713880019ED94 /* View */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		96A055DE1C5713880019ED94 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		96A055DF1C5713880019ED94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		96A055E01C5713880019ED94 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		96A055E11C5713880019ED94 /* Read */ = {
+			isa = PBXGroup;
+			children = (
+				96A055E21C5713880019ED94 /* Controller */,
+				96A055E31C5713880019ED94 /* Model */,
+				96A055E41C5713880019ED94 /* View */,
+				96A055ED1C5714F10019ED94 /* YJRead.storyboard */,
+			);
+			path = Read;
+			sourceTree = "<group>";
+		};
+		96A055E21C5713880019ED94 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		96A055E31C5713880019ED94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		96A055E41C5713880019ED94 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E54D9384954201A15DB8FADE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83FD34B0C303CD371BA98BB8 /* Pods.debug.xcconfig */,
+				1A9580F467FDB3F4A17BAC3A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +394,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96A055BF1C570E9D0019ED94 /* Build configuration list for PBXNativeTarget "网易新闻-框架搭建" */;
 			buildPhases = (
+				C0E93F6D04D1F97C45EBA49B /* Check Pods Manifest.lock */,
 				96A055A91C570E9D0019ED94 /* Sources */,
 				96A055AA1C570E9D0019ED94 /* Frameworks */,
 				96A055AB1C570E9D0019ED94 /* Resources */,
+				40F864F834EE309872A1BF4D /* Embed Pods Frameworks */,
+				85AF0E0DF9D4509D5F5E0CCC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,13 +448,66 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96A055EC1C5714E20019ED94 /* YJNews.storyboard in Resources */,
+				96A055EA1C5714D20019ED94 /* YJMedia.storyboard in Resources */,
+				96A055E81C5714C00019ED94 /* YJMe.storyboard in Resources */,
 				96A055BB1C570E9D0019ED94 /* LaunchScreen.storyboard in Resources */,
 				96A055B81C570E9D0019ED94 /* Assets.xcassets in Resources */,
+				96A055E61C5714AC0019ED94 /* YJDiscover.storyboard in Resources */,
 				96A055B61C570E9D0019ED94 /* Main.storyboard in Resources */,
+				96A055EE1C5714F10019ED94 /* YJRead.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40F864F834EE309872A1BF4D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85AF0E0DF9D4509D5F5E0CCC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0E93F6D04D1F97C45EBA49B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		96A055A91C570E9D0019ED94 /* Sources */ = {
@@ -137,6 +516,7 @@
 			files = (
 				96A055B31C570E9D0019ED94 /* ViewController.swift in Sources */,
 				96A055B11C570E9D0019ED94 /* AppDelegate.swift in Sources */,
+				96A056841C575AEC0019ED94 /* DataTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,23 +625,29 @@
 		};
 		96A055C01C570E9D0019ED94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83FD34B0C303CD371BA98BB8 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "网易新闻-框架搭建/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.rhot.---------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
 		96A055C11C570E9D0019ED94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A9580F467FDB3F4A17BAC3A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "网易新闻-框架搭建/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.rhot.---------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};
@@ -284,6 +670,7 @@
 				96A055C11C570E9D0019ED94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

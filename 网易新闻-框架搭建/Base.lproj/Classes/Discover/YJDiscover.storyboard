@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fnS-Jl-JUM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--发现-->
+        <scene sceneID="naE-Jt-Kgi">
+            <objects>
+                <navigationController title="发现" id="fnS-Jl-JUM" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="发现" id="g3I-wo-ldz"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="l9V-RL-GjB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="WFE-N6-ROa" kind="relationship" relationship="rootViewController" id="Ulc-pl-MPY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TfD-Cp-Two" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-658" y="442"/>
+        </scene>
+        <!--发现-->
+        <scene sceneID="F8i-Ig-fF7">
+            <objects>
+                <viewController title="发现" id="WFE-N6-ROa" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QI6-51-T7a"/>
+                        <viewControllerLayoutGuide type="bottom" id="3fm-pR-IWY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UHo-PL-mZj">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="发现" id="Y38-ES-Rvw">
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="WS6-84-5fF"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="cCN-2n-LK4"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c8y-eg-T90" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="458"/>
+        </scene>
+    </scenes>
+</document>
